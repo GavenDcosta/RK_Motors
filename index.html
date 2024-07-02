@@ -30,6 +30,16 @@
 
     <link rel="stylesheet" href="assets/css/style.css">
 
+    <style>
+        .circle-image {
+            width: 40px;
+            height: 40px;
+            background: url('./assets/images/logo.jpg') no-repeat center top; /* Adjust the 'top' value */
+            background-size: cover;
+            display: inline-block;
+        }
+    </style>
+
     </head>
     
     <body>
@@ -57,8 +67,10 @@
                         <!-- ***** Logo Start ***** -->
                         <div style="display: flex; flex-direction: row; justify-content: space-between; align-items: center;flex-wrap: wrap">
                             <div style="display: flex; flex-direction: row; justify-content: ceenter; align-items: center; gap: 10px; flex-wrap: wrap">
-                                <img src="./assets/images/logo.jpg" style="height: 50px; width: 50px; border-radius: 50%" alt="">
-                            <a href="index.html" class="logo">RK<em> Mototrs</em></a>
+                                <div style="padding: 10px;background-color:black;border-radius:50%; display:flex; align-item:center">
+                                    <div class="circle-image"></div>
+                                </div>
+                                <a href="index.html" class="logo">RK<em> Mototrs</em></a>
                             </div>
                             <div>
                                 <ul class="nav">
